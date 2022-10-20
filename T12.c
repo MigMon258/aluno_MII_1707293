@@ -2,11 +2,11 @@
 unsigned long factorial(int num);
 int main(){
  int numero;
- printf(ì\n CALCULO DO FACTORIAL \nî);
- printf(ì\n Introduza um numero: î);
- printf(ì\n CALCULO DO FACTORIAL \nî);
- scanf(ì%dî,&numero);
- printf(ì%d!= %ld \nî, numero,factorial(numero));
+ printf(‚Äú\n CALCULO DO FACTORIAL \n‚Äù);
+ printf(‚Äú\n Introduza um numero: ‚Äù);
+ printf(‚Äú\n CALCULO DO FACTORIAL \n‚Äù);
+ scanf(‚Äú%d‚Äù,&numero);
+ printf(‚Äú%d!= %ld \n‚Äù, numero,factorial(numero));
  return 0;
 }
 unsigned long factorial(int num){
